@@ -53,5 +53,17 @@ Console.WriteLine(endHour.ToShortTimeString());
 
 Console.ReadLine();
 
+//if else statements
+
+Console.WriteLine("Enter the age of the candidate:");
+int age=int.Parse(Console.ReadLine());
+
+if (age < 18)
+    Console.WriteLine("Too young to apply");
+else if (age > 65)
+    Console.WriteLine("Too old to apply and not eligible");
+else
+    Console.WriteLine("Great!You can apply");
+
 
 
