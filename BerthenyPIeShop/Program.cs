@@ -65,5 +65,19 @@ else if (age > 65)
 else
     Console.WriteLine("Great!You can apply");
 
+//switch
+switch(age)
+{
+
+    case < 18:
+        Console.WriteLine("Too young to apply");
+        break;
+    case > 65:
+        Console.WriteLine("Too old and not eligible");
+        break;
+    default:
+        Console.WriteLine("Great!You can apply");
+        break;
+}
 
 
