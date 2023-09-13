@@ -44,4 +44,14 @@ Console.WriteLine(startDate);
 DateTime currentDate=DateTime.Now;
 bool areWeInDst=currentDate.IsDaylightSavingTime();
 
+DateTime startHour=DateTime.Now;
+TimeSpan workTime = new TimeSpan(8, 30, 00);
+DateTime endHour = startHour.Add(workTime);
+
+Console.WriteLine(startHour);
+Console.WriteLine(endHour);
+
+Console.ReadLine();
+
+
 
