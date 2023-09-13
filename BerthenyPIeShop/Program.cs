@@ -41,4 +41,7 @@ DateTime lastdate = new DateTime(2024, 01, 01);
 DateTime startDate = hiredate.AddDays(15);
 Console.WriteLine(startDate);
 
+DateTime currentDate=DateTime.Now;
+bool areWeInDst=currentDate.IsDaylightSavingTime();
+
 
